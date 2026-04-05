@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vander</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Vander</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT ME</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title"></h1>
+            <p class="hero-subtitle">Social Media, Artificial Intelligence & Roblox Developer</p>
+            <p class="hero-description">I design tomorrow's digital spaces with seamless <b>Social Media Apps</b>, smart <b>AI</b>, and <b>Game</b> environments.</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hey, I'm Vander</h3>
+                    <p>I'm a passionate creator who builds digital experiences that actually matter. Whether I'm designing addictive <b>Roblox</b> games, developing smart <b>social media apps</b>, or creating intelligent <b>AI</b> systems, my goal is always the same: to craft something fun, smooth, and unforgettable.</p>
+                    <p>With a focus on user experience and creative gameplay mechanics, I've developed multiple projects that have grown my experience to another level.</p>
+                </div>
+                
+                <div class="skills">
+                    <h3>Skills & Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <h4>Programming Skills</h4>
+                            <p>I can do HTML, CSS, JS, LUA and currently learning mroe about Swift.</p>
+                        </div>
+                        <div class="skill-card">
+                            <h4>Roblox Development</h4>
+                            <p>I've spent over 4 years on Roblox as a builder creating immersive environments, I know what it takes to make a great game. I do <b>Building, GFX, Environmental Terrain, and GFX privately.</b></p>
+                        </div>
+                        <div class="skill-card">
+                            <h4>AI Creations</h4>
+                            <p>I've created multiple AI powered applications, a current project is School AI Chatbot with over 2000 users weekly.</p>
+                        </div>
+                        <div class="skill-card">
+                            <h4>Community Moderation</h4>
+                            <p>I've moderated for various servers with thousands of members, I have elite experience in managing online communities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects">
+                <h3>Portfolio Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h4>Building</h4>
+                            <span class="project-status">Commissionable</span>
+                        </div>
+                        <p>Expert 3D modeling, environment design, and visual storytelling. Creating immersive spaces with meticulous attention to detail and optimization for seamless gameplay experiences.</p>
+                        <a href="building.html" class="project-link">See Work →</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h4>GFX</h4>
+                            <span class="project-status">Not Commissionable</span>
+                        </div>
+                        <p>Designing captivating and creative Roblox GFX that elevate player immersion and bring game worlds to life with seamless visual excellence.</p>
+                        <a href="gfx.html" class="project-link">See Work →</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h4>Terrain</h4>
+                            <span class="project-status">Commissionable</span>
+                        </div>
+                        <p>Building dynamic terrain systems and world generation tools to create vast, explorable landscapes with unique visual character and gameplay depth.</p>
+                        <a href="terrain.html" class="project-link">See Work →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">Interested in collaborating or have a question? I'd love to hear from you!</p>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Discord Username <span class="required-star">*</span></label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        placeholder="Enter your Discord username" 
+                        required
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address <span class="required-star">*</span></label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        placeholder="Enter your email" 
+                        required
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject <span class="required-star">*</span></label>
+                    <input 
+                        type="text" 
+                        id="subject" 
+                        placeholder="What is this about?" 
+                        required
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message <span class="required-star">*</span></label>
+                    <textarea 
+                        id="message" 
+                        placeholder="Tell me more about your project..." 
+                        rows="6" 
+                        required
+                    ></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+                <p class="form-message" id="formMessage"></p>
+            </form>
+            <div class="success-popup" id="successPopup">
+                <div class="popup-content">
+                    <div class="checkmark">✓</div>
+                    <p>Message sent successfully!</p>
+                </div>
+            </div>
+
+            <div class="contact-links">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="https://www.roblox.com/users/2734370695/profile" target="_blank" class="social-link">Roblox</a>
+                    <a href="https://discord.gg/wJwTGuFTZ9" target="_blank" class="social-link">Discord</a>
+                    <a href="https://x.com/vand5r" target="_blank" class="social-link">Twitter</a>
+                    <a href="https://github.com/vand5r" target="_blank" class="social-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Vander C. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#35d6ff" />
+      <stop offset="50%" stop-color="#ff6580" />
+      <stop offset="100%" stop-color="#ffd15c" />
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="20" /></filter>
+  </defs>
+  <rect width="1200" height="675" fill="#111418" />
+  <ellipse cx="600" cy="340" rx="520" ry="220" fill="url(#g2)" opacity="0.16" filter="url(#blur)" />
+  <rect x="180" y="140" width="840" height="410" rx="32" fill="rgba(255,255,255,0.07)" />
+  <text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="54" fill="#ffffff" font-weight="700">GFX Preview 2</text>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="24" fill="rgba(255,255,255,0.75)">High-end sports & motion lighting</text>
+</svg>
