@@ -499,6 +499,10 @@ body::before {
     font-weight: bold;
 }
 
+.project-status.not-commissionable {
+    background-color: #e74c3c;
+}
+
 .project-card p {
     color: var(--muted-color);
     margin-bottom: 1.5rem;
