@@ -47,6 +47,9 @@ const textOptions = [
     "From Blocky Worlds to Seamless Digital Lives."
 ];
 
+// Ensure the animation starts with an empty hero title
+heroTitle.textContent = '';
+
 let currentIndex = 0;
 let isDeleting = false;
 let charIndex = 0;
